@@ -1,0 +1,560 @@
+{
+  "materials": [
+    {
+      "name": "Std_weizhi_shuangkaibolimen_1200kuan.jpgLightingMap_20180102shebeichuangjian_dulishebei_huawei_room_control_door_single_1.bmp",
+      "occlusionTexture": {
+        "index": 0,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.6
+      },
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "Material_#12LightingMap_20180102shebeichuangjian_dulishebei_huawei_room_control_door_single_2.bmp",
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 1
+      },
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "Material_#13LightingMap_20180102shebeichuangjian_dulishebei_huawei_room_control_door_single_2.bmp",
+      "occlusionTexture": {
+        "index": 2,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.6
+      },
+      "alphaMode": "BLEND"
+    }
+  ],
+  "images": [
+    {
+      "uri": "F796CA10C82974057BD9D1EDCCD41149.bmp"
+    },
+    {
+      "uri": "4F2ADA0074815FFE56DF373141246E8D.jpg"
+    },
+    {
+      "uri": "D9FE62426A2E78D6F91CBE1DFA5EC85C.bmp"
+    },
+    {
+      "uri": "7AD6408FD7978EDBE3055702252506EF.png"
+    }
+  ],
+  "textures": [
+    {
+      "name": "LightingMap_20180102shebeichuangjian_dulishebei_huawei_room_control_door_single_1.bmp",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "weizhi_shuangkaibolimen_1200kuan.jpg",
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "name": "LightingMap_20180102shebeichuangjian_dulishebei_huawei_room_control_door_single_2.bmp",
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "name": "boli.png",
+      "sampler": 0,
+      "source": 3
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Lo-BODY_01",
+      "primitives": [
+        {
+          "material": 0,
+          "mode": 4,
+          "indices": 2,
+          "attributes": {
+            "COLOR_0": 5,
+            "NORMAL": 4,
+            "POSITION": 3,
+            "TEXCOORD_0": 6,
+            "TEXCOORD_1": 7
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lo-ZUOMEN_01",
+      "primitives": [
+        {
+          "material": 1,
+          "mode": 4,
+          "indices": 8,
+          "attributes": {
+            "COLOR_0": 11,
+            "NORMAL": 10,
+            "POSITION": 9,
+            "TEXCOORD_0": 12,
+            "TEXCOORD_1": 13
+          }
+        },
+        {
+          "material": 2,
+          "mode": 4,
+          "indices": 14,
+          "attributes": {
+            "COLOR_0": 17,
+            "NORMAL": 16,
+            "POSITION": 15,
+            "TEXCOORD_0": 18,
+            "TEXCOORD_1": 19
+          }
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 146184,
+      "uri": "088847B9076C99F7D07CACE73518A69B.bin"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "RootNode",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "children": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "Lo-BODY_01",
+      "translation": [
+        2.22377498360071E-11,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        -0.70710676908493,
+        0.0,
+        0.0,
+        0.70710676908493
+      ],
+      "scale": [
+        0.00999999977648258,
+        0.00999999977648258,
+        0.00999999977648258
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "Lo-ZUOMEN_01",
+      "translation": [
+        -0.33087882399559,
+        1.02305996417999,
+        -0.000508704455569386
+      ],
+      "rotation": [
+        -0.70710676908493,
+        0.0,
+        0.0,
+        0.70710676908493
+      ],
+      "scale": [
+        0.00999999977648258,
+        0.00999999977648258,
+        0.00999999977648258
+      ],
+      "mesh": 1
+    }
+  ],
+  "asset": {
+    "generator": "FBX2glTF",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 80,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 320,
+      "byteOffset": 80
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 400,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 948,
+      "byteOffset": 688,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 948,
+      "byteOffset": 1636,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1264,
+      "byteOffset": 2584,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 3848,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632,
+      "byteOffset": 4480,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 6312,
+      "byteOffset": 5112,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 28776,
+      "byteOffset": 11424,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 28776,
+      "byteOffset": 40200,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 38368,
+      "byteOffset": 68976,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 19184,
+      "byteOffset": 107344,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 19184,
+      "byteOffset": 126528,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 145712,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 145736,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 145832,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 128,
+      "byteOffset": 145928,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 146056,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 146120,
+      "target": 34962
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Root Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5126,
+      "type": "SCALAR",
+      "count": 20,
+      "bufferView": 0,
+      "byteOffset": 0,
+      "min": [
+        0.0
+      ],
+      "max": [
+        0.791666686534882
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC4",
+      "count": 20,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5123,
+      "type": "SCALAR",
+      "count": 144,
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 79,
+      "bufferView": 3,
+      "byteOffset": 0,
+      "min": [
+        -37.9829864501953,
+        -5.80047035217285,
+        0.0
+      ],
+      "max": [
+        33.3764991760254,
+        5.80047035217285,
+        210.0
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 79,
+      "bufferView": 4,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC4",
+      "count": 79,
+      "bufferView": 5,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 79,
+      "bufferView": 6,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 79,
+      "bufferView": 7,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5123,
+      "type": "SCALAR",
+      "count": 3156,
+      "bufferView": 8,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 2398,
+      "bufferView": 9,
+      "byteOffset": 0,
+      "min": [
+        -3.814697265625E-06,
+        -10.8727006912231,
+        -102.305992126465
+      ],
+      "max": [
+        61.5692825317383,
+        11.1859846115112,
+        102.417411804199
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 2398,
+      "bufferView": 10,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC4",
+      "count": 2398,
+      "bufferView": 11,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 2398,
+      "bufferView": 12,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 2398,
+      "bufferView": 13,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5123,
+      "type": "SCALAR",
+      "count": 12,
+      "bufferView": 14,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 8,
+      "bufferView": 15,
+      "byteOffset": 0,
+      "min": [
+        5.22529220581055,
+        -4.83372259140015,
+        -97.5889129638672
+      ],
+      "max": [
+        53.881217956543,
+        4.83372831344604,
+        97.8026809692383
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 8,
+      "bufferView": 16,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC4",
+      "count": 8,
+      "bufferView": 17,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 8,
+      "bufferView": 18,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 8,
+      "bufferView": 19,
+      "byteOffset": 0
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "animations": [
+    {
+      "name": "OpenDoor",
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 2,
+            "path": "rotation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 0,
+          "interpolation": "LINEAR",
+          "output": 1
+        }
+      ]
+    }
+  ]
+}

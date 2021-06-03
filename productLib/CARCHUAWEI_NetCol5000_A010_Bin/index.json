@@ -1,0 +1,26 @@
+{
+  "sourceFile": "D:\\work\\d7cf309fb91047b8ba0707ff2e1f83aa_1_转换中\\MAX\\9000screenshot.maxbk0.max",
+  "gltfFiles": [
+    "default.gltf"
+  ],
+  "texFiles": {
+    "D4C4329987578360679F82F99E8E4382": "D4C4329987578360679F82F99E8E4382.bin",
+    "376B61B25A559FAB10E25D83A5368F22": "LightingMap_20180801设备分类创建_架式设备_HUAWEI_huawei_CARCHUAWEI_NetCol5000_A010_Bin_1_f_bmp.jpg",
+    "48B3DD2BBDC0DF27F796F13F43940A71": "huawei_CARCHUAWEI_NetCol5000_A010_Bin.jpg",
+    "2D90F50909508B1CDE890F4F5ABFE8E7": "黑色网孔.Lib.jpg",
+    "08F4373F924368D69D0435C234C397A8": "透明风扇_f_tga.png"
+  },
+  "size": [
+    0.44,
+    0.599999964,
+    0.44
+  ],
+  "faces": 2692,
+  "verts": 5132,
+  "nodes": 2,
+  "createTime": "2018-09-04 18:27:54",
+  "author": "",
+  "computer": "USER-B2M1SK78IA",
+  "max": "#(18000, 46, 0)",
+  "version": "2.0"
+}

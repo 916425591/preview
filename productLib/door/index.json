@@ -1,0 +1,22 @@
+{
+  "maxfile": "9000screenshot.max",
+  "gltffiles": [
+    "default.gltf"
+  ],
+  "texfiles": {
+    "64BC3133E157269B176398FDC2E282E0": "64BC3133E157269B176398FDC2E282E0.bin",
+    "FE3D568B8963148DD753D319C38A7E64": "LightingMap_20170505设备分类创建_独立设备_小品牌_未知_双开玻璃门_1200宽_1.bmp",
+    "4F2ADA0074815FFE56DF373141246E8D": "未知_双开玻璃门_1200宽.jpg",
+    "7AD6408FD7978EDBE3055702252506EF": "boli.png"
+  },
+  "size": [
+    1.32928765,
+    0.220586866,
+    2.1
+  ],
+  "createtime": "2018-04-25 14:04:32",
+  "author": "",
+  "computer": "USER-B2M1SK78IA",
+  "max": "#(18000, 46, 0)",
+  "version": "1.2"
+}
