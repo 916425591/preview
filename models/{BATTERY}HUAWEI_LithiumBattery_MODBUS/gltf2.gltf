@@ -1,0 +1,353 @@
+{
+  "materials": [
+    {
+      "name": "Std_huawei_BATTERYHUAWEI_LithiumBattery_MODBUS.jpgLightingMap_20190110shebeimuxing_dulishebei_huawei_BATTERYHUAWEI_LithiumBattery_MODBUS_1.bmp",
+      "occlusionTexture": {
+        "index": 0,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.6
+      },
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "TexLibMat_Std_heishaiwangkong.Lib.jpgLightingMap_20190110shebeimuxing_dulishebei_huawei_BATTERYHUAWEI_LithiumBattery_MODBUS_1.bmp",
+      "occlusionTexture": {
+        "index": 0,
+        "texCoord": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "images": [
+    {
+      "uri": "0B3FD833284B7AED9C47D68AFD669F0B.jpg"
+    },
+    {
+      "uri": "C198CC35B3E4836ACB4F2C5A4C150E04.jpg"
+    },
+    {
+      "uri": "2D90F50909508B1CDE890F4F5ABFE8E7.jpg"
+    }
+  ],
+  "textures": [
+    {
+      "name": "LightingMap_20190110shebeimuxing_dulishebei_huawei_BATTERYHUAWEI_LithiumBattery_MODBUS_1_f_bmp.jpg",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "huawei_BATTERYHUAWEI_LithiumBattery_MODBUS.jpg",
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "name": "heishaiwangkong.Lib.jpg",
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Lo-BODY_01",
+      "primitives": [
+        {
+          "material": 0,
+          "mode": 4,
+          "indices": 0,
+          "attributes": {
+            "COLOR_0": 3,
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 4,
+            "TEXCOORD_1": 5
+          }
+        },
+        {
+          "material": 1,
+          "mode": 4,
+          "indices": 6,
+          "attributes": {
+            "COLOR_0": 9,
+            "NORMAL": 8,
+            "POSITION": 7,
+            "TEXCOORD_0": 10,
+            "TEXCOORD_1": 11
+          }
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 32248,
+      "uri": "4AF6719556C22F83E1AB34DEF68EFE77.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "target": 34963,
+      "byteLength": 1728,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 6120,
+      "byteOffset": 1728
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 6120,
+      "byteOffset": 7848
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 8160,
+      "byteOffset": 13968
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 4080,
+      "byteOffset": 22128
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 4080,
+      "byteOffset": 26208
+    },
+    {
+      "buffer": 0,
+      "target": 34963,
+      "byteLength": 168,
+      "byteOffset": 30288
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 384,
+      "byteOffset": 30456
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 384,
+      "byteOffset": 30840
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 512,
+      "byteOffset": 31224
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 256,
+      "byteOffset": 31736
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 256,
+      "byteOffset": 31992
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5123,
+      "type": "SCALAR",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "count": 864
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 0,
+      "count": 510,
+      "min": [
+        -30.0,
+        -42.5000038146973,
+        0.0
+      ],
+      "max": [
+        30.0,
+        42.5,
+        200.0
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "bufferView": 2,
+      "byteOffset": 0,
+      "count": 510
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC4",
+      "bufferView": 3,
+      "byteOffset": 0,
+      "count": 510
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "bufferView": 4,
+      "byteOffset": 0,
+      "count": 510
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "bufferView": 5,
+      "byteOffset": 0,
+      "count": 510
+    },
+    {
+      "componentType": 5123,
+      "type": "SCALAR",
+      "bufferView": 6,
+      "byteOffset": 0,
+      "count": 84
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "bufferView": 7,
+      "byteOffset": 0,
+      "count": 32,
+      "min": [
+        -22.3949947357178,
+        -42.5000038146973,
+        5.46997833251953
+      ],
+      "max": [
+        22.3950004577637,
+        42.5,
+        194.530014038086
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "bufferView": 8,
+      "byteOffset": 0,
+      "count": 32
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC4",
+      "bufferView": 9,
+      "byteOffset": 0,
+      "count": 32
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "bufferView": 10,
+      "byteOffset": 0,
+      "count": 32
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "bufferView": 11,
+      "byteOffset": 0,
+      "count": 32
+    }
+  ],
+  "nodes": [
+    {
+      "name": "RootNode",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "Lo-BODY_01",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        -0.70710676908493,
+        0.0,
+        0.0,
+        0.70710676908493
+      ],
+      "scale": [
+        0.00999999977648258,
+        0.00999999977648258,
+        0.00999999977648258
+      ],
+      "mesh": 0
+    }
+  ],
+  "asset": {
+    "generator": "FBX2glTF",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Root Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ]
+}
