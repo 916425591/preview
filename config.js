@@ -17,5 +17,7 @@ dom.addEventListener('click',()=>{
         isClick = true;
     }
 })
-document.body.appendChild(dom);
+setTimeout(()=>{
+    document.body.appendChild(dom);
+},3000)
 
